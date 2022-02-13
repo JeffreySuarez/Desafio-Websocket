@@ -1,0 +1,80 @@
+<div class="d-flex">
+<div>
+<h1 style="color:blue; font-weight: bold;" class="mt-4" >Registro de Productos</h1>
+<br>
+<form class="w-70" onsubmit="return addProducts(this)">
+    <h2 class="text-center">Datos</h2>
+    <div class="d-flex flex-column justify-content-center">
+        <span>Ingrese el nombre: </span>
+        <input type="text"  id="nameProduct">
+        <br>
+        <span>Ingrese su edad: </span>
+        <input type="number"  id="edad">
+        <br>
+        <span>Ingrese su genero: </span>
+        <input type="text"  id="genero">
+        <br>
+        <span>Registre su número de Celular :</span>
+        <input type="number" id="celular">
+    </div>
+    <br>
+    <div class="d-flex justify-content-center">
+        <input class="  btn-success mt-3 mb-5" type="submit" value="Registrar">
+    </div>
+</form>
+
+
+
+<h2 style="color:crimson; font-weight: bold;">Registros cargados</h2>
+
+
+         
+    <div class="table-responsive">
+        <table class="table table-dark">
+            <tr style="color: yellow;">
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Genero</th>
+                <th>Celular</th>
+            </tr>
+            <tbody>
+              
+                <tr>
+                    <td id ="nombre">
+                       
+                    </td>
+                    <td id="edad1">
+                   
+                    </td>
+                    <td id="genero1">
+                    
+                    </td>
+                    <td id="celular1">
+                    
+                    </td>
+                </tr>
+             
+                </tbody>
+        </table>
+    </div>
+
+</div>
+
+    <div class="container w-50">
+        <form onsubmit="return addMessage(this)" class="d-flex flex-column border m-2">
+
+            <h1 class="text-center">Centro de Mensajes</h1>
+            <input type="email" id="emailChat" placeholder="Tu correo" class="m-1 ">
+            <input type="text" id="text" placeholder="Cuentanos algo" class="m-1">
+            <input type="submit" value="Enviar" class="btn-primary container w-50">
+            <p class="p-2"></p>
+
+
+        </form>
+
+
+    </div>
+
+    </div>
+
+     
